@@ -2,7 +2,7 @@
 
 ## General
 
-Capture Leesburg is a mobile app that allows a user to locate sites of interest on a map and get detailed information about that site. User can also connect to local guides via chat.
+Capture Leesburg is a mobile app that allows a user to locate sites of interest on a map and get detailed information about a specific site. User can also connect to local guides via chat.
 
 
 ## Dependencies
