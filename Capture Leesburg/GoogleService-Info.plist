@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>225387379265-g9rdmcltnn2naojjep41toqfaj48c8kq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.225387379265-g9rdmcltnn2naojjep41toqfaj48c8kq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDVeoVR3sCa5ItX8fPS4Q5ly8C7hPxhF1E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>225387379265</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gabekelemen.Capture-Leesburg</string>
+	<key>PROJECT_ID</key>
+	<string>capture-leesburg</string>
+	<key>STORAGE_BUCKET</key>
+	<string>capture-leesburg.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:225387379265:ios:dba0f8c44d25e10c62a4c0</string>
+</dict>
+</plist>

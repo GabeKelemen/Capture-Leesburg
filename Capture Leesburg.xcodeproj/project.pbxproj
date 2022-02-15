@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D07076527A77ACF00603570 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7D07076427A77ACF00603570 /* FirebaseAuth */; };
+		7D21EC4227A5BB4C00D61417 /* Capture_LeesburgApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21EC4127A5BB4C00D61417 /* Capture_LeesburgApp.swift */; };
+		7D21EC4427A5BB4C00D61417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21EC4327A5BB4C00D61417 /* ContentView.swift */; };
+		7D21EC4627A5BB4D00D61417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D21EC4527A5BB4D00D61417 /* Assets.xcassets */; };
+		7D21EC4927A5BB4D00D61417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D21EC4827A5BB4D00D61417 /* Preview Assets.xcassets */; };
+		7D21EC5027A5BB6800D61417 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21EC4F27A5BB6800D61417 /* WelcomeView.swift */; };
+		7D35895027A6158D003C60E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7D35894F27A6158D003C60E6 /* FirebaseFirestore */; };
+		7D35895627A62633003C60E6 /* SiteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35895527A62633003C60E6 /* SiteListViewModel.swift */; };
+		7D35895827A635F7003C60E6 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35895727A635F7003C60E6 /* RegisterViewModel.swift */; };
+		7D35895A27A63A42003C60E6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35895927A63A42003C60E6 /* LoginViewModel.swift */; };
+		7D570E7727A8F01B005FC73F /* bellTest.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7D570E7627A8F01B005FC73F /* bellTest.rcproject */; };
+		7D63C06227B2F19900626F45 /* ChatTitleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63C06127B2F19900626F45 /* ChatTitleRowView.swift */; };
+		7D63C06427B2FAFE00626F45 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63C06327B2FAFE00626F45 /* Message.swift */; };
+		7D63C06627B2FB9C00626F45 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63C06527B2FB9C00626F45 /* MessageBubble.swift */; };
+		7D63C06827B3097F00626F45 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63C06727B3097F00626F45 /* MessageField.swift */; };
+		7D63C06A27B327E200626F45 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 7D63C06927B327E200626F45 /* FirebaseFirestoreSwift-Beta */; };
+		7D63C06C27B32CDE00626F45 /* MessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63C06B27B32CDE00626F45 /* MessagesManager.swift */; };
+		7D63C06E27B3541D00626F45 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63C06D27B3541D00626F45 /* ChatView.swift */; };
+		7D79935427B6FAC000921FF0 /* LogInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79935327B6FAC000921FF0 /* LogInScreenView.swift */; };
+		7D79935827B82DD500921FF0 /* TourGuideListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79935727B82DD500921FF0 /* TourGuideListViewModel.swift */; };
+		7D79935A27B82E6C00921FF0 /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79935927B82E6C00921FF0 /* Guide.swift */; };
+		7D79935C27B82EF900921FF0 /* GuideListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79935B27B82EF900921FF0 /* GuideListView.swift */; };
+		7D79935E27B8302500921FF0 /* GuideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79935D27B8302500921FF0 /* GuideDetailView.swift */; };
+		7D79936027B834C500921FF0 /* HeaderBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79935F27B834C500921FF0 /* HeaderBanner.swift */; };
+		7D79936627BAC87300921FF0 /* MapViewOfSingleSiteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79936527BAC87300921FF0 /* MapViewOfSingleSiteModel.swift */; };
+		7D79936A27BBE7A900921FF0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79936927BBE7A900921FF0 /* MapView.swift */; };
+		7D79936E27BC520E00921FF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D79936D27BC520E00921FF0 /* GoogleService-Info.plist */; };
+		7DAA2AB927AF018D00DD2CFF /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA2AB827AF018D00DD2CFF /* MapViewModel.swift */; };
+		7DB31DB327A5C8C10091A725 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB31DB227A5C8C10091A725 /* RegisterView.swift */; };
+		7DB31DB627A5CE9B0091A725 /* SiteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB31DB527A5CE9B0091A725 /* SiteListView.swift */; };
+		7DB31DB827A5CEEA0091A725 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB31DB727A5CEEA0091A725 /* Site.swift */; };
+		7DB31DBA27A5CF1B0091A725 /* SiteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB31DB927A5CF1B0091A725 /* SiteDetailView.swift */; };
+		7DBD2B7127ADA87C00D0F669 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD2B7027ADA87C00D0F669 /* User.swift */; };
+		7DBE3A0627AAD810002A9EAC /* AnotherARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE3A0527AAD810002A9EAC /* AnotherARView.swift */; };
+		7DBE3A0827AAD9B3002A9EAC /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE3A0727AAD9B3002A9EAC /* ARView.swift */; };
+		7DBE3A0A27AAE89D002A9EAC /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE3A0927AAE89D002A9EAC /* LandingView.swift */; };
+		7DC8CC5427B0B9F100BDEE20 /* DistanceToSiteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC8CC5327B0B9F100BDEE20 /* DistanceToSiteViewModel.swift */; };
+		7DD4BA9527AD8E6A0093727B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4BA9427AD8E6A0093727B /* UserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D21EC3E27A5BB4C00D61417 /* Capture Leesburg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capture Leesburg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D21EC4127A5BB4C00D61417 /* Capture_LeesburgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capture_LeesburgApp.swift; sourceTree = "<group>"; };
+		7D21EC4327A5BB4C00D61417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D21EC4527A5BB4D00D61417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D21EC4827A5BB4D00D61417 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D21EC4F27A5BB6800D61417 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7D35895527A62633003C60E6 /* SiteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteListViewModel.swift; sourceTree = "<group>"; };
+		7D35895727A635F7003C60E6 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		7D35895927A63A42003C60E6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7D570E7627A8F01B005FC73F /* bellTest.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = bellTest.rcproject; sourceTree = "<group>"; };
+		7D63C06127B2F19900626F45 /* ChatTitleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTitleRowView.swift; sourceTree = "<group>"; };
+		7D63C06327B2FAFE00626F45 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7D63C06527B2FB9C00626F45 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		7D63C06727B3097F00626F45 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
+		7D63C06B27B32CDE00626F45 /* MessagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesManager.swift; sourceTree = "<group>"; };
+		7D63C06D27B3541D00626F45 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		7D79935327B6FAC000921FF0 /* LogInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenView.swift; sourceTree = "<group>"; };
+		7D79935727B82DD500921FF0 /* TourGuideListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourGuideListViewModel.swift; sourceTree = "<group>"; };
+		7D79935927B82E6C00921FF0 /* Guide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
+		7D79935B27B82EF900921FF0 /* GuideListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideListView.swift; sourceTree = "<group>"; };
+		7D79935D27B8302500921FF0 /* GuideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideDetailView.swift; sourceTree = "<group>"; };
+		7D79935F27B834C500921FF0 /* HeaderBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBanner.swift; sourceTree = "<group>"; };
+		7D79936527BAC87300921FF0 /* MapViewOfSingleSiteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewOfSingleSiteModel.swift; sourceTree = "<group>"; };
+		7D79936927BBE7A900921FF0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7D79936D27BC520E00921FF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7DAA2AB827AF018D00DD2CFF /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		7DB31DB227A5C8C10091A725 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		7DB31DB527A5CE9B0091A725 /* SiteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteListView.swift; sourceTree = "<group>"; };
+		7DB31DB727A5CEEA0091A725 /* Site.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
+		7DB31DB927A5CF1B0091A725 /* SiteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteDetailView.swift; sourceTree = "<group>"; };
+		7DBD2B7027ADA87C00D0F669 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7DBE3A0527AAD810002A9EAC /* AnotherARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherARView.swift; sourceTree = "<group>"; };
+		7DBE3A0727AAD9B3002A9EAC /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		7DBE3A0927AAE89D002A9EAC /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		7DC8CC5327B0B9F100BDEE20 /* DistanceToSiteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceToSiteViewModel.swift; sourceTree = "<group>"; };
+		7DD4BA9427AD8E6A0093727B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D21EC3B27A5BB4C00D61417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D63C06A27B327E200626F45 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				7D35895027A6158D003C60E6 /* FirebaseFirestore in Frameworks */,
+				7D07076527A77ACF00603570 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D21EC3527A5BB4C00D61417 = {
+			isa = PBXGroup;
+			children = (
+				7D21EC4027A5BB4C00D61417 /* Capture Leesburg */,
+				7D21EC3F27A5BB4C00D61417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D21EC3F27A5BB4C00D61417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D21EC3E27A5BB4C00D61417 /* Capture Leesburg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D21EC4027A5BB4C00D61417 /* Capture Leesburg */ = {
+			isa = PBXGroup;
+			children = (
+				7D570E7627A8F01B005FC73F /* bellTest.rcproject */,
+				7D79936D27BC520E00921FF0 /* GoogleService-Info.plist */,
+				7D35895227A62575003C60E6 /* ViewModels */,
+				7D35895127A624DA003C60E6 /* Models */,
+				7DB31DB427A5C8DB0091A725 /* Views */,
+				7D21EC4127A5BB4C00D61417 /* Capture_LeesburgApp.swift */,
+				7D21EC4527A5BB4D00D61417 /* Assets.xcassets */,
+				7D21EC4727A5BB4D00D61417 /* Preview Content */,
+			);
+			path = "Capture Leesburg";
+			sourceTree = "<group>";
+		};
+		7D21EC4727A5BB4D00D61417 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D21EC4827A5BB4D00D61417 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D35895127A624DA003C60E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D63C06127B2F19900626F45 /* ChatTitleRowView.swift */,
+				7D79935927B82E6C00921FF0 /* Guide.swift */,
+				7D63C06327B2FAFE00626F45 /* Message.swift */,
+				7D63C06527B2FB9C00626F45 /* MessageBubble.swift */,
+				7DB31DB727A5CEEA0091A725 /* Site.swift */,
+				7DBD2B7027ADA87C00D0F669 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D35895227A62575003C60E6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7DC8CC5327B0B9F100BDEE20 /* DistanceToSiteViewModel.swift */,
+				7D79935F27B834C500921FF0 /* HeaderBanner.swift */,
+				7D35895927A63A42003C60E6 /* LoginViewModel.swift */,
+				7DAA2AB827AF018D00DD2CFF /* MapViewModel.swift */,
+				7D79936527BAC87300921FF0 /* MapViewOfSingleSiteModel.swift */,
+				7D35895727A635F7003C60E6 /* RegisterViewModel.swift */,
+				7D35895527A62633003C60E6 /* SiteListViewModel.swift */,
+				7D79935727B82DD500921FF0 /* TourGuideListViewModel.swift */,
+				7DD4BA9427AD8E6A0093727B /* UserModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7DB31DB427A5C8DB0091A725 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DBE3A0527AAD810002A9EAC /* AnotherARView.swift */,
+				7DBE3A0727AAD9B3002A9EAC /* ARView.swift */,
+				7D63C06D27B3541D00626F45 /* ChatView.swift */,
+				7D21EC4327A5BB4C00D61417 /* ContentView.swift */,
+				7D79935B27B82EF900921FF0 /* GuideListView.swift */,
+				7D79935D27B8302500921FF0 /* GuideDetailView.swift */,
+				7D79935327B6FAC000921FF0 /* LogInScreenView.swift */,
+				7D63C06B27B32CDE00626F45 /* MessagesManager.swift */,
+				7D63C06727B3097F00626F45 /* MessageField.swift */,
+				7DBE3A0927AAE89D002A9EAC /* LandingView.swift */,
+				7D79936927BBE7A900921FF0 /* MapView.swift */,
+				7DB31DB227A5C8C10091A725 /* RegisterView.swift */,
+				7DB31DB927A5CF1B0091A725 /* SiteDetailView.swift */,
+				7DB31DB527A5CE9B0091A725 /* SiteListView.swift */,
+				7D21EC4F27A5BB6800D61417 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D21EC3D27A5BB4C00D61417 /* Capture Leesburg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D21EC4C27A5BB4D00D61417 /* Build configuration list for PBXNativeTarget "Capture Leesburg" */;
+			buildPhases = (
+				7D21EC3A27A5BB4C00D61417 /* Sources */,
+				7D21EC3B27A5BB4C00D61417 /* Frameworks */,
+				7D21EC3C27A5BB4C00D61417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Capture Leesburg";
+			packageProductDependencies = (
+				7D35894F27A6158D003C60E6 /* FirebaseFirestore */,
+				7D07076427A77ACF00603570 /* FirebaseAuth */,
+				7D63C06927B327E200626F45 /* FirebaseFirestoreSwift-Beta */,
+			);
+			productName = "Capture Leesburg";
+			productReference = 7D21EC3E27A5BB4C00D61417 /* Capture Leesburg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D21EC3627A5BB4C00D61417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7D21EC3D27A5BB4C00D61417 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D21EC3927A5BB4C00D61417 /* Build configuration list for PBXProject "Capture Leesburg" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D21EC3527A5BB4C00D61417;
+			packageReferences = (
+				7D35894E27A6158D003C60E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7D21EC3F27A5BB4C00D61417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D21EC3D27A5BB4C00D61417 /* Capture Leesburg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D21EC3C27A5BB4C00D61417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D21EC4927A5BB4D00D61417 /* Preview Assets.xcassets in Resources */,
+				7D21EC4627A5BB4D00D61417 /* Assets.xcassets in Resources */,
+				7D79936E27BC520E00921FF0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D21EC3A27A5BB4C00D61417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D79936627BAC87300921FF0 /* MapViewOfSingleSiteModel.swift in Sources */,
+				7D79935427B6FAC000921FF0 /* LogInScreenView.swift in Sources */,
+				7D21EC5027A5BB6800D61417 /* WelcomeView.swift in Sources */,
+				7D79935827B82DD500921FF0 /* TourGuideListViewModel.swift in Sources */,
+				7D35895827A635F7003C60E6 /* RegisterViewModel.swift in Sources */,
+				7DBD2B7127ADA87C00D0F669 /* User.swift in Sources */,
+				7D35895A27A63A42003C60E6 /* LoginViewModel.swift in Sources */,
+				7DBE3A0827AAD9B3002A9EAC /* ARView.swift in Sources */,
+				7D79935C27B82EF900921FF0 /* GuideListView.swift in Sources */,
+				7D63C06C27B32CDE00626F45 /* MessagesManager.swift in Sources */,
+				7DBE3A0A27AAE89D002A9EAC /* LandingView.swift in Sources */,
+				7D63C06827B3097F00626F45 /* MessageField.swift in Sources */,
+				7D63C06E27B3541D00626F45 /* ChatView.swift in Sources */,
+				7DC8CC5427B0B9F100BDEE20 /* DistanceToSiteViewModel.swift in Sources */,
+				7D21EC4427A5BB4C00D61417 /* ContentView.swift in Sources */,
+				7D35895627A62633003C60E6 /* SiteListViewModel.swift in Sources */,
+				7D63C06227B2F19900626F45 /* ChatTitleRowView.swift in Sources */,
+				7D63C06627B2FB9C00626F45 /* MessageBubble.swift in Sources */,
+				7D570E7727A8F01B005FC73F /* bellTest.rcproject in Sources */,
+				7DBE3A0627AAD810002A9EAC /* AnotherARView.swift in Sources */,
+				7DAA2AB927AF018D00DD2CFF /* MapViewModel.swift in Sources */,
+				7D79935A27B82E6C00921FF0 /* Guide.swift in Sources */,
+				7DB31DB627A5CE9B0091A725 /* SiteListView.swift in Sources */,
+				7DB31DB327A5C8C10091A725 /* RegisterView.swift in Sources */,
+				7DD4BA9527AD8E6A0093727B /* UserModel.swift in Sources */,
+				7DB31DB827A5CEEA0091A725 /* Site.swift in Sources */,
+				7D79936027B834C500921FF0 /* HeaderBanner.swift in Sources */,
+				7D63C06427B2FAFE00626F45 /* Message.swift in Sources */,
+				7D79935E27B8302500921FF0 /* GuideDetailView.swift in Sources */,
+				7D21EC4227A5BB4C00D61417 /* Capture_LeesburgApp.swift in Sources */,
+				7DB31DBA27A5CF1B0091A725 /* SiteDetailView.swift in Sources */,
+				7D79936A27BBE7A900921FF0 /* MapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D21EC4A27A5BB4D00D61417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D21EC4B27A5BB4D00D61417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D21EC4D27A5BB4D00D61417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Capture Leesburg/Preview Content\"";
+				DEVELOPMENT_TEAM = GRLXH26FZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Augmented Reality";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to personalize your app experience";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabekelemen.Capture-Leesburg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7D21EC4E27A5BB4D00D61417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Capture Leesburg/Preview Content\"";
+				DEVELOPMENT_TEAM = GRLXH26FZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Augmented Reality";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to personalize your app experience";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabekelemen.Capture-Leesburg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D21EC3927A5BB4C00D61417 /* Build configuration list for PBXProject "Capture Leesburg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D21EC4A27A5BB4D00D61417 /* Debug */,
+				7D21EC4B27A5BB4D00D61417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D21EC4C27A5BB4D00D61417 /* Build configuration list for PBXNativeTarget "Capture Leesburg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D21EC4D27A5BB4D00D61417 /* Debug */,
+				7D21EC4E27A5BB4D00D61417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D35894E27A6158D003C60E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D07076427A77ACF00603570 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D35894E27A6158D003C60E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7D35894F27A6158D003C60E6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D35894E27A6158D003C60E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7D63C06927B327E200626F45 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D35894E27A6158D003C60E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7D21EC3627A5BB4C00D61417 /* Project object */;
+}
