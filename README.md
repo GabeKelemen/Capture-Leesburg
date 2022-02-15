@@ -7,7 +7,7 @@ Capture Leesburg is a mobile app that allows a user to locate sites of interest 
 
 ## Dependencies
 - SwiftUI
--Google Firebase database. 
+- Google Firebase database
 - MapKit and CoreLocation 
 
 ## Installation
